@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adventure Girl Run</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body class="body" onload="idleAnimationStart();" onkeyup="key(event);">
+
+    <div class="b" id="b">
+
+        <img class="girl" id="girl" src="Idle (1).png" />
+        
+        <p class="score" id="score">0</p>
+
+    </div>
+
+
+    <div id="end" class="end">
+
+        <div>Game Over</div>
+        <div>Your Score</div>
+        <div id="endgame">o</div>
+
+        <button onclick="re();" class="btn">Try Again</button>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
